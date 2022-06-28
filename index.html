@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Tony´s Web Page
+    </title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet"/>
+    <link href="style/sass/custom.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"></script>
+</head>
+
+<body section-change>
+<div class="bigContainer" section-change>
+    <!-- Main Content -->
+    <header>
+        <nav class="navP" section-change>
+            <a class="nav__logo" href="#" id="logo">
+                <figure class="icon">
+                    <img alt="logoTony" src="img/g48.png">
+                </figure>
+                <span> Tony Mora
+					</span>
+            </a>
+            <div class="links " section-change>
+                <a href="#home">Inicio</a>
+                <a href="#about">Acerca</a>
+                <a href="#qualification">Experiencia</a>
+                <a href="#skills">Habiliadades</a>
+                <a href="#socialMedia">Social Media</a>
+            </div>
+            <div class="burger" section-change>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <section class="bighero">
+            <section class="hero">
+                <img alt="Background" src="img/logo.jpeg">
+                <h1 class="headline">
+                    Mora Ayala Jose Antonio
+                </h1>
+            </section>
+        </section>
+    </header>
+    <!-- Creating animation from the bottom -->
+    <div class="slider" section-change>
+    </div>
+</div>
+
+<a class="buttonP"><i class="uil uil-sun"></i> </a>
+<!-- Formacion Academica -->
+<section class="qualification " id="qualification" section-change>
+    <div class="qualification__info">
+        <h2 class="qua__title">Formación Acádemica y Experiencia Laboral</h2>
+        <span class="qua__subtitle"> <b>All the effort you make, one day will be retrieved in a better way that you could have ever imagined <br><br><br></b></span>
+        <p>
+
+            A lo largo de mi vida he podido tener la satisfacción de poder adquirir diversos conocimientos y habilidades, me hes muy grato poder tener una formación que me permita desarrollarme en una
+            forma más eficiente y eficaz.
+            Así mismo durante toda mi experiencia acádemica he sido mencionado por el gran desempeño que he tenido en mi formación, me he destacado en mi formación y he sido reconocido por mi
+            excelencia.
+
+            <br>
+            <br>
+
+            Con respecto al ambito laboral he tenido la oportunidad de poder aplicar mis conocimientos en proyectos de ámbito escolar, así como poder transmitir los aprendizajes que yo he adquirido a
+            otros estudiantes.
+        </p>
+
+
+    </div>
+    <div class="qualification_container">
+
+        <div class="qualification__tabs">
+            <!-- Icons of the headers from the experience and school -->
+            <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                <i class="uil uil-book-alt qualification__icon"></i>Escolaridad
+            </div>
+            <div class="qualification__button button--flex" data-target='#work'>
+                <i class="uil uil-moneybag qualification__icon"></i>Experiencia Laboral
+            </div>
+        </div>
+        <!-- End of those headers -->
+        <div class="qualification__sections">
+            <!-- Qualification content 1 -->
+            <div class="qualification__content qualification__active" data-content id="education">
+                <!-- Quealification 1 -->
+                <div class="qualification__data">
+                    <div class="qualification__content" section-change>
+                        <h3 class="qualification__title">Secundaria</h3>
+                        <span class="qualification__subtitle">Lic Adolfo López Mateos</span>
+                        <div class="qualification__date">
+                            <i class="uil uil-backpack"></i>
+                            <span>2013-2016</span>
+                        </div>
+                    </div>
+
+                    <div section-change>
+                        <span class="qualification__rounded"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+                </div>
+                <!-- Qualification 2 -->
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounded"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+
+                    <div>
+                        <h3 class="qualification__title">Preparatoria</h3>
+                        <span class="qualification__subtitle">CECyT No. 2 "Miguel Bernard" IPN
+								<br> <b>Técnico en Diseño Gráfico Digital </b>
+							</span>
+                        <div class="qualification__date">
+                            <i class="uil uil-backpack"></i>
+                            <span>2017-2020</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Qualification 3 -->
+                <div class="qualification__data">
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">Universidad <br> <b>Actualmente <br> Cursando</b></h3>
+                        <span class="qualification__subtitle">ESCOM IPN <br> Escuela Superior de Computo</span>
+                        <div class="qualification__date">
+                            <i class="uil uil-backpack"></i>
+                            <span>Ingenieria en Sistemas <br> Computacionales</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounded"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End of Qualification content 1 -->
+            <!-- Qualification content 2 -->
+            <div class="qualification__content" data-content id="work">
+                <!-- Quealification 1 -->
+                <div class="qualification__data">
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">Proyecto <br> Kronos Creations <br> Independiente</h3>
+                        <span class="qualification__subtitle">Creación de identidad corporativa <br> de un  despacho de diseño  </span>
+                        <div class="qualification__date">
+                            <i class="uil uil-backpack"></i>
+                            <span>2013-2016</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounded"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+                </div>
+                <!-- Qualification 2 -->
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounded"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+
+                    <div>
+                        <h3 class="qualification__title">Proyecto HeyU <br>Independiente</h3>
+                        <span class="qualification__subtitle">Trabajo de titulación de Preparatoria, <br> diseño de identidad corporativa y marca</span>
+                        <div class="qualification__date">
+                            <i class="uil uil-backpack"></i>
+                            <span>2019-2020</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Qualification 3 -->
+                <div class="qualification__data">
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">Independiente</h3>
+                        <span class="qualification__subtitle">Curso de Inglés y algebra intermedios <br> a niños de preparatoria</span>
+                        <div class="qualification__date">
+                            <i class="uil uil-backpack"></i>
+                            <span>2020-2021</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounded"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End of Qualification content 2 -->
+        </div>
+
+    </div>
+</section>
+<!-- End of achademichal -->
+
+
+<!-- About me -->
+<section class="about_container" id="about">
+    <div class="about_1">
+        <h1>Hola! Mi nombre es Antonio Mora</h1>
+        <h2>Aunque las personas me dicen Tony</h2>
+        <p>Bienvenido a mi página, espero encuentres interesante el contenido que hay aquí <br>Así mismo espero
+            tengas la oportunidad de conocerme un poco más mediante este medio digital <br>A través de esta página
+            espero poder dar a conocer un poco acerca de mi, tanto gustos personales como logros académicos y
+            conocimientos, si te sientes un poco interesado en mi con respecto a una amistad u entorno laboral,
+        </p>
+        <h3>Si quieres saber mas acerca de mi, continua en la página o descarga mi curriculum</h3>
+        <a class="about_button" download="MoraAyalaCurriculumV" href="./Curriculum_Vitae.pdf">Curriculum Vitae</a>
+    </div>
+    <div class="about_2">
+        <figure>
+            <img alt="" src="./img/tony.jpg">
+        </figure>
+    </div>
+</section>
+
+
+<!-- End of about me -->
+
+<!-- Hobbies -->
+
+<section class="hobbie" id="hobbies">
+    <div class="hobbie_title" section-change>
+        <h1>Mis Hobbies</h1>
+    </div>
+    <div class="hobbie_container">
+        <div class="card card1">
+            <div class="card_img">
+                <img alt="videogames" src="./img/playV.jpeg">
+            </div>
+            <div class="card_info" section-change>
+                <h1>Jugar Videojuegos</h1>
+                <p>Uno de mis Hobbies principales es <span>Jugar videojuegos</span> , realmente es un hobbie que realmente disfruto y me ayuda a desestrezarme un poco de las situaciones que puedas
+                    estar sucediendo en el momento. <br> Jugar videojuegos muchas veces me ayuda a escapar un poco de la realidad y me brinda la oportunidad de sumergirme en una aventura de cualquier
+                    tipo que yo eliga </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_img">
+                <img alt="study" src="./img/study.jpeg">
+            </div>
+            <div class="card_info" section-change>
+                <h1>Estudiar</h1>
+                <p>Estudiar es otra de las acciones que considero un hobbie, pues es algo que realmente me gusta cuando los temas son de mi intéres, pues comprendo que todo el aprendizaje que adquiera
+                    acerca de cualquier tema me podrá ser útil en un futuro, me gusta <span>poner mucho enpeño en ello</span> y es por eso que siempre trato de hacerlo dinámico, haciendo que <span>mis apuntes se vean bonitos o metiendo dinámicas </span>
+                </p>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="card_img">
+                <img alt="Tony Cook" src="./img/cook.jpeg">
+            </div>
+            <div class="card_info" section-change>
+                <h1>Cocinar</h1>
+                <p>Durante el tiempo de cuarentena tuve la oportunidad de aprender muchas cosas nuevas, y una de ellas fue mi <span>habilidad con la cocina</span>, comenza entrando a ver como es que
+                    mi mamá preparaba los alimentos y poco a poco fue despertando más y más en mi la curiosidad por saber como podrían quedarme, por lo que comenza haciendo salsas y luego en un abrir
+                    y cerrar de ojos ya podía hacer diferentes platillos, <span>me gusta mucho, por que los que han probado mis preparaciones siempre terminan con: ¡Muy ricoo!</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End of Hobbies -->
+
+
+<!-- Social Media -->
+
+<section class="social_container" id="socialMedia" section-change>
+    <h1 class="social_title"> SOCIAL MEDIA</h1>
+    <div class="social_media">
+        <a class="social_icon" href="https://www.facebook.com/Tony.Ayala201/"><i class='bx bxl-whatsapp'></i></a>
+        <a class="social_icon" href="https://www.instagram.com/tony_ayala01/?hl=en"><i class='bx bxl-instagram'></i></a>
+        <a class="social_icon" href="https://www.linkedin.com/in/mora-ayala-jose-antonio-745a2a237/"><i
+                class='bx bxl-linkedin'></i></a>
+        <a class="social_icon" href=""><i class='bx bxl-gmail'></i></a>
+    </div>
+</section>
+
+
+<!-- End of Social Media  -->
+
+<!-- Section  Skills-->
+<section class="skills section" id="skills" section-change>
+    <div class="skills__headers">
+
+        <h2 class="section__title">
+            Mis habilidades
+        </h2>
+        <span class="section__subtitle">Mi
+				nivel Tecnico</span>
+    </div>
+
+    <div class="skills__container container grid">
+        <div class="skills_content skills__close">
+            <div class="skills__header">
+                <i class='bx bx-minus-front bx-tada icon'></i>
+                <div>
+                    <h1 class="skills_title">
+                        Habiliadades
+                        de
+                        FrontEnd
+                    </h1>
+                    <span class="skills__subtitle">En el manejo del Front-End considero tener un buen desempeño, pues las habilidades que poseo para el manejo de los programas y lenguajes que deben ser implementados para poder crear cualquier tipo de interfaz las desarrollo bien. <br> De igual forma considero que mis habilidades en Diseño Gráfico me son de ayuda para poder proprocionar aspectos agradables a la vista.</span>
+                </div>
+                <i class="uil uil-arrow-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list">
+                <i class='bx bxl-html5 icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            HTML5
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__html animate"></span>
+                    </div>
+                </div>
+                <i class='bx bxl-css3 icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            CSS
+                        </h3>
+                        <span class="skills__number">70%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__css"></span>
+                    </div>
+                </div>
+                <i class='bx bxl-javascript icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            JavaScript
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__javascript"></span>
+                    </div>
+                </div>
+
+                <i class='bx bxl-bootstrap icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            Bootstrap
+                        </h3>
+                        <span class="skills__number">55%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__bootstrap"></span>
+                    </div>
+                </div>
+
+                <i class='bx bxl-sass icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            Sass
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__sass"></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Skills content 2 -->
+        <div class="skills_content skills__close">
+            <div class="skills__header">
+                <i class='bx bxs-data bx-tada icon'></i>
+                <div>
+                    <h1 class="skills_title">
+                        Habiliadades
+                        de
+                        BackEnd
+                    </h1>
+                    <span class="skills__subtitle">Mis habilidades de backend actualmente las trato de implemntar mucho mas en el desarrollo de proyectos para mi portafolio, buscando obtener el mayor conocimientos de las tecnologías para poder manejarlas de la mejor forma, <br> Actualmente me encuentro enfocado en aprender y perfeccionar mis habilidades con las siguientes, aunque no me cierro a comenzar el aprendizaje o el uso de alguna otra en caso de ser necesario</span>
+                </div>
+                <i class="uil uil-arrow-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list">
+                <i class='bx bxl-java icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            Java
+                        </h3>
+                        <span class="skills__number">65%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__java animate"></span>
+                    </div>
+                </div>
+                <i class='bx bxl-nodejs icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            NodeJs
+                        </h3>
+                        <span class="skills__number">35%</span>
+                        <span class="skills__number">Aprendiendo</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__nodeJs"></span>
+                    </div>
+                </div>
+
+
+                <figure class="icon">
+                    <img alt="AdobeXD" src="./img/MySQL-Logo.wine.svg">
+                </figure>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            MySQL
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__mySql"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Skills 3 -->
+        <div class="skills_content skills__close">
+            <div class="skills__header">
+                <i class='bx bx-bracket bx-tada icon'></i>
+                <div>
+                    <h1 class="skills_title">
+                        Lenguajes
+                        de
+                        Programación
+                    </h1>
+                    <span class="skills__subtitle">
+							Los lenguajes de porgramación que actualmente manejo son los listados en la parte inferior, sigo en constante atualización acerca de los mismos para implementar en cualquier tipo de proyecto que lo requiera.
+						</span>
+                </div>
+                <i class="uil uil-arrow-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list ">
+                <i class='bx bxl-python icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            Python
+                        </h3>
+                        <span class="skills__number">25%</span>
+                        <span class="skills__number">Aprendiendo</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__python animate"></span>
+                    </div>
+                </div>
+                <i class='bx bx-copyright icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            C
+                        </h3>
+                        <span class="skills__number">85%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__c"></span>
+                    </div>
+                </div>
+                <i class='bx bxl-java icon'></i>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            Java
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__java"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Skills 4 -->
+        <div class="skills_content skills__close">
+            <div class="skills__header">
+                <i class='bx bx-pencil bx-tada icon'></i>
+                <div>
+                    <h1 class="skills_title">
+                        Habiliadades
+                        de
+                        Diseño
+                    </h1>
+                    <span class="skills__subtitle">En el apartado del manejo de diseño tengo un desempeño bastante fluido, pues soy técnico en esta rama y los softwares que competen a la misma no me presentan complejidad alguna para la implementación en alguna página web o el desarrollo/creación de alguna publicidad o identidad <br>
+						<b>La identidad de esta página web, logo , así como el diseño del CV fueron desarrolados por mi</b>
+						</span>
+                </div>
+                <i class="uil uil-arrow-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+
+                <figure class="icon">
+                    <img alt="AdobeXD" src="./img/Adobe_Illustrator-Logo.wine.png">
+                </figure>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            Illustrator
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__illustrator animate"></span>
+                    </div>
+                </div>
+                <figure class="icon photo">
+                    <img alt="Photoshop" src="./img/photoshop.png">
+                </figure>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            Photoshop
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__photoshop"></span>
+                    </div>
+                </div>
+                <figure class="icon">
+                    <img alt="AdobeXD" src="./img/Adobe_XD-Logo.wine.png">
+                </figure>
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">
+                            AdobeXD
+                        </h3>
+                        <span class="skills__number">75%</span>
+                    </div>
+                    <div class="skills__bar">
+                        <span class="skills__percentage skills__adobeXD"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+</section>
+<!-- End of the Skills Section -->
+
+<!--&lt;!&ndash; Section of Item &ndash;&gt;-->
+<!--<section id="hero">-->
+<!--    <h1 class="h1 text-center">Insertar Alumno Nuevo</h1>-->
+<!--    <form action="AgregarAlumno.jsp" method="post" class="container">-->
+<!--        <div class="row d-flex flex-sm-column flex-md-row  align-items-center">-->
+<!--            <div class='col-6 col-sm-6 col-md-4'>-->
+<!--                <div class='form-floating mb-3 mt-3'>-->
+<!--                    <input class='mb-2  form-control' type='text' name='nombreAlumno' id='nombreAlumno'-->
+<!--                           placeholder='Nombre del alumno' required maxlength='50' value=''>-->
+<!--                    <label class='mb-2' for='nombreAlumno'>Nombre del Alumno</label>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class='col-6 col-sm-6 col-md-4'>-->
+<!--                <div class='form-floating mb-3 mt-3'>-->
+<!--                    <input class='form-control' type='text' name='paternoAlumno' id='paternoAlumno'-->
+<!--                           placeholder="Please type the carrers description" required maxlength='50' value=''>-->
+<!--                    <label for='paternoAlumno'>Apellido Paterno</label>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class='col-6 col-sm-6 col-md-4'>-->
+<!--                <div class='form-floating mb-3 mt-3'>-->
+<!--                    <input class='form-control' type='text' name='maternoAlumno' id='maternoAlumno'-->
+<!--                           placeholder="Please type the carrers description" required maxlength='50' value=''>-->
+<!--                    <label for='maternoAlumno'>Apelido Materno</label>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row d-flex flex-sm-column flex-md-row  align-items-center">-->
+<!--            <div class='col-6 col-sm-6 col-md-4'>-->
+<!--                <div class='form-floating mb-3 mt-3'>-->
+<!--                    <input class='mb-2  form-control' type='email' name='email' id='email'-->
+<!--                           placeholder='email' required maxlength='50' value=''>-->
+<!--                    <label class='mb-2' for='email'>Email</label>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class='col-6 col-sm-6 col-md-4'>-->
+<!--                <div class='form-floating mb-3 mt-3'>-->
+<!--                    <input class='form-control' type='text' name='idCarrera' id='idCarrera'-->
+<!--                           placeholder="Please type the carrers description" required maxlength='50' value=''>-->
+<!--                    <label for='idCarrera'>id de la Carrera</label>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash;            This is just activated when we have an id for the student&ndash;&gt;-->
+<!--            &lt;!&ndash;            <div class='col-6 col-sm-6 col-md-4'>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <div class='form-floating mb-3 mt-3'>&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <input class='form-control' type='text' name='idAlumno' id='idAlumno'&ndash;&gt;-->
+<!--            &lt;!&ndash;                           placeholder="" required maxlength='50' value=''>&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <label for='idAlumno'>id del Alumno</label>&ndash;&gt;-->
+<!--            &lt;!&ndash;                </div>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--        </div>-->
+<!--        <div class='row'>-->
+<!--            <div class='col p-4 d-flex flex-sm-column align-items-center justify-content-around'>-->
+<!--                <input class='btn btn-success mt-3' name="accion" type='submit' value='NuevoAlumno'>-->
+<!--                <a href='../index.jsp' class='btn btn-outline-primary mt-3'><i class='bx bxs-home-heart' style='color:#c955ba'></i></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </form>-->
+
+<!--</section>-->
+
+
+<!-- Footer -->
+<footer class="footerP" section-change>
+    <div class="footer_social">
+        <div class="icon_box">
+            <i class='bx bxl-whatsapp'></i>
+            <a class="social_icon" href="https://www.facebook.com/Tony.Ayala201/">WhatsApp</a>
+        </div>
+        <div class="icon_box">
+            <i class='bx bxl-instagram'></i>
+            <a class="social_icon" href="https://www.instagram.com/tony_ayala01/?hl=en">Instagram</a>
+        </div>
+        <div class="icon_box">
+            <i class='bx bxl-linkedin'></i>
+            <a class="social_icon"
+               href="https://www.linkedin.com/in/mora-ayala-jose-antonio-745a2a237/">LinkeDin</a>
+        </div>
+        <div class="icon_box">
+            <i class='bx bxl-gmail'></i>
+            <a class="social_icon" href="https://www.linkedin.com/in/mora-ayala-jose-antonio-745a2a237/">Gmail</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer_copyright">
+        <p>
+            © 2022 All rights reserved | This page belongs to Mora Ayala Jose Antonio <i class='bx bx-heart'></i>
+        </p>
+    </div>
+
+    <div class="footer_info">
+        <i class='bx bx-envelope'></i>
+        <a href="mailto:antonioayalam2001@gmail.com?Subject=Contacto%20"> Envíame un Email</a>
+    </div>
+
+</footer>
+
+
+<!-- <button class="button" id="lightMode"><i class='bx bx-sun bx-spin'></i></button> -->
+
+
+<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
